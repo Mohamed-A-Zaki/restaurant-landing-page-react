@@ -1,0 +1,45 @@
+@import "../../../sass/helpers/variables";
+@import "../../../sass/helpers/mixins";
+
+/* start FAQ section */
+.faq {
+  @include section-padding($section-padding);
+  @include media("mobile-small") {
+    text-align: center;
+  }
+  .heading {
+    h2 {
+      margin: 0 0 80px;
+      text-align: center;
+      color: $text-color;
+      font-size: 35px;
+    }
+  }
+  .content {
+    @include grid(450px, 25px);
+    .item {
+      border-bottom: 1px solid #ccc;
+      h3 {
+        position: relative;
+        margin: 0;
+        margin-left: 20px;
+        &::before {
+          content: "~";
+          color: $main-color;
+          font-size: 25px;
+          position: absolute;
+          top: 50%;
+          left: -20px;
+          transform: translateY(-50%);
+          @include media("mobile-small") {
+            content: "";
+          }
+        }
+      }
+      p {
+        margin: 10px 0;
+      }
+    }
+  }
+}
+/* end FAQ section */

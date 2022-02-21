@@ -1,0 +1,42 @@
+@import "../../../sass/helpers/variables";
+@import "../../../sass/helpers/mixins";
+
+/* start our-story section */
+.our-story {
+  @include section-padding($section-padding * 2);
+  @include bg-image("../../../img/story.jpg", false);
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .content {
+    max-width: 65%;
+    h2 {
+      margin: 0;
+      color: $main-color;
+      font-size: 35px;
+    }
+    a {
+      color: #000;
+      font-weight: 700;
+      font-size: 18px;
+      position: relative;
+      transition: $main-transition;
+      &:hover {
+        color: $main-color;
+      }
+      &::after {
+        content: "\f0da";
+        font-family: "Font Awesome 6 Free";
+        font-size: 25px;
+        position: absolute;
+        top: 50%;
+        left: -20px;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+/* end our-story section */

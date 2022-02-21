@@ -1,0 +1,45 @@
+@import "../../sass/helpers/variables";
+
+/* start footer section */
+.footer {
+  padding-top: $section-padding;
+  padding-bottom: $section-padding / 2;
+  background-color: $main-color;
+  text-align: center;
+  color: #fff;
+  .links {
+    a {
+      color: inherit;
+      display: inline-block;
+      padding: 10px;
+      transition: $main-transition;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  .social {
+    margin: 30px 0;
+    i {
+      width: 40px;
+      height: 40px;
+      background-color: #000;
+      margin: 5px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 50%;
+      transition: $main-transition;
+      &:hover {
+        color: $main-color;
+        transform: rotate(360deg) scale(1.1);
+      }
+    }
+  }
+  .copy-right {
+    font-size: 14px;
+  }
+}
+/* end footer section */

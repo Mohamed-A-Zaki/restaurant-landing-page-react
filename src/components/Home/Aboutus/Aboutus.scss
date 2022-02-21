@@ -1,0 +1,30 @@
+@import "../../../sass/helpers/variables";
+@import "../../../sass/helpers/mixins";
+
+/* start about us section */
+.about {
+  @include section-padding($section-padding);
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .image {
+      flex: 1;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .content {
+      flex: 1;
+      h2 {
+        margin: 0;
+        font-size: 35px;
+        color: $text-color;
+      }
+    }
+    @include media("mobile-small") {
+      flex-direction: column;
+    }
+  }
+}
+/* end about us section */

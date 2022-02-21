@@ -1,0 +1,56 @@
+{
+  "statistics": [
+    { "id": 1, "number": 1287, "text": "Saving" },
+    { "id": 2, "number": 5786, "text": "Photos" },
+    { "id": 3, "number": 1440, "text": "Pockets" },
+    { "id": 4, "number": 7110, "text": "Globes" }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "img": "../../../img/01.jpg",
+      "name": "Rainbow Vegetable Sandwich",
+      "overview": "Time: 15 - 20 Minutes | Serves: 1",
+      "old_price": "$11.70",
+      "new_price": "$10.50"
+    },
+    {
+      "id": 2,
+      "img": "../../../img/02.jpg",
+      "name": "Vegetarian Burger",
+      "overview": "Time: 30 - 45 Minutes | Serves: 1",
+      "old_price": "$10.50",
+      "new_price": "$9.20"
+    },
+    {
+      "id": 3,
+      "img": "../../../img/03.jpg",
+      "name": "Raspberry Stuffed French Toast",
+      "overview": "Time: 10 - 15 Minutes | Serves: 1",
+      "old_price": "$13.20",
+      "new_price": "$12.50"
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "title": "Is Foodera Bread really baked fresh each day?",
+      "text": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language."
+    },
+    {
+      "id": 2,
+      "title": "Do you bake breads containing animal fats or products?",
+      "text": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language."
+    },
+    {
+      "id": 3,
+      "title": "Can I order your products online?",
+      "text": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language."
+    },
+    {
+      "id": 4,
+      "title": "When are you opening a shop near me?",
+      "text": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language."
+    }
+  ]
+}

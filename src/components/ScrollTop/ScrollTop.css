@@ -1,0 +1,66 @@
+.scroll-to-top {
+  position: fixed;
+  z-index: 20;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ab344f;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+.scroll-to-top.show {
+  opacity: 1;
+}
+.scroll-to-top:hover {
+  background-color: rgba(171, 52, 79, 0.8);
+}
+.scroll-to-top i {
+  position: relative;
+  -webkit-animation: slide-up-down 1.5s linear infinite;
+          animation: slide-up-down 1.5s linear infinite;
+}
+
+@-webkit-keyframes slide-up-down {
+  0%, 50%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+  75% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+}
+
+@keyframes slide-up-down {
+  0%, 50%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+  75% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+}

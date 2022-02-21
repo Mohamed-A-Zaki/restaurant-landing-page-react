@@ -1,0 +1,36 @@
+@import "../../../sass/helpers/variables";
+@import "../../../sass/helpers/mixins";
+
+/* start subscribe section */
+.subscribe {
+  @include section-padding($section-padding);
+  text-align: center;
+  background-color: #eee;
+  h2 {
+    color: $text-color;
+    font-size: 35px;
+    margin: 0;
+  }
+  form {
+    input {
+      padding: 10px 20px;
+      margin: 5px;
+      font-weight: bold;
+      font-size: 15px;
+      outline: none;
+      user-select: none;
+      &[type="email"] {
+        min-width: 350px;
+        max-width: 100%;
+        border: 3px solid #ccc;
+        border-radius: 5px;
+        caret-color: $main-color;
+        transition: $main-transition;
+        &:focus::placeholder {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
+/* end subscribe section */

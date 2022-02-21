@@ -1,0 +1,64 @@
+@mixin media($screen) {
+  @if ($screen == "mobile") {
+    @media (max-width: 767px) {
+      @content;
+    }
+  }
+  @if ($screen == "small") {
+    @media (min-width: 768px) and (max-width: 991px) {
+      @content;
+    }
+  }
+  @if ($screen == "medium") {
+    @media (min-width: 992px) and (max-width: 1199px) {
+      @content;
+    }
+  }
+  @if ($screen == "large") {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+  @if ($screen == "mobile-small") {
+    @media (max-width: 991px) {
+      @content;
+    }
+  }
+  @if ($screen == "medium-large") {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+}
+
+@mixin section-padding($value) {
+  padding-top: $value;
+  padding-bottom: $value;
+}
+
+@mixin grid($min_width, $gap) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($min_width, 1fr));
+  gap: $gap;
+}
+
+@mixin bg-image($url, $isFixed) {
+  background-image: url($url);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  @if ($isFixed == true) {
+    background-attachment: fixed;
+  }
+}
+
+@mixin section-overlay($color, $opacity) {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color, $opacity);
+  z-index: -1;
+}

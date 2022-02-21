@@ -1,0 +1,19 @@
+/* start global rules */
+* {
+  box-sizing: border-box;
+}
+html {
+  // scroll-behavior: smooth;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+/* end global rules */

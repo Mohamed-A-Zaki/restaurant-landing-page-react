@@ -1,0 +1,45 @@
+@import "../../../sass/helpers/variables";
+@import "../../../sass/helpers/mixins";
+
+/* start features section */
+.features {
+  @include section-padding($section-padding);
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include media("mobile-small") {
+      flex-direction: column;
+    }
+    .content {
+      flex: 1;
+      h2 {
+        margin: 0;
+        font-size: 35px;
+        color: $text-color;
+      }
+      ul {
+        margin-bottom: 30px;
+        li {
+          position: relative;
+          padding: 10px 40px;
+          &::before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 25px;
+            color: $main-color;
+          }
+        }
+      }
+    }
+    .image {
+      flex: 1;
+    }
+  }
+}
+/* end features section */

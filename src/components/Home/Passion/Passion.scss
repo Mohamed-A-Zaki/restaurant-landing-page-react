@@ -1,0 +1,29 @@
+@import "../../../sass/helpers/variables";
+@import "../../../sass/helpers/mixins";
+
+/* start passion section */
+.passion {
+  @include section-padding($section-padding);
+  @include bg-image("../../../img/passion.jpg", true);
+  position: relative;
+  z-index: 1;
+  &::after {
+    @include section-overlay(#333, 60%);
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    .text {
+      color: #fff;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    @include media("mobile-small") {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}
+/* end passion section */

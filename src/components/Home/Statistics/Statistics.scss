@@ -1,0 +1,26 @@
+@import "../../../sass/helpers/variables";
+@import "../../../sass/helpers/mixins";
+
+/* start statistics section */
+.Statistics {
+  @include section-padding($section-padding);
+  background-color: $main-color;
+  color: #fff;
+  .container {
+    @include grid(250px, 10px);
+    .item {
+      text-align: center;
+      padding: 20px;
+      .number {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      span {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
+  }
+}
+/* end statistics section */
