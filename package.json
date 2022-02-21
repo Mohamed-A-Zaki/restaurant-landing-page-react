@@ -1,7 +1,7 @@
 {
   "name": "restaurant_landing_page",
   "version": "0.1.0",
-  "homepage": "https://Mohamed-A-Zaki.github.io/restaurant_landing_page_react",
+  "homepage": "https://Mohamed-A-Zaki.github.io/restaurant-landing-page-react",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.0.0",
