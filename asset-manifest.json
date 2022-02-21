@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/restaurant_landing_page_react/static/css/main.3e76e5d0.css",
+    "main.js": "/restaurant_landing_page_react/static/js/main.1971328f.js",
+    "static/media/features.png": "/restaurant_landing_page_react/static/media/features.4d72ae6577093d32b9e2.png",
+    "static/media/about_us.png": "/restaurant_landing_page_react/static/media/about_us.b9c846570f6969d98104.png",
+    "static/media/fa-solid-900.ttf": "/restaurant_landing_page_react/static/media/fa-solid-900.79da213423ac0def2058.ttf",
+    "static/media/fa-brands-400.ttf": "/restaurant_landing_page_react/static/media/fa-brands-400.0a1b701f5563c2288281.ttf",
+    "static/media/landing.jpg": "/restaurant_landing_page_react/static/media/landing.fd8d1c0f73f6925473ab.jpg",
+    "static/media/fa-solid-900.woff2": "/restaurant_landing_page_react/static/media/fa-solid-900.4896d4b04430cc3dfb06.woff2",
+    "static/media/story.jpg": "/restaurant_landing_page_react/static/media/story.2c410f22bb0b5a8d74ef.jpg",
+    "static/media/fa-brands-400.woff2": "/restaurant_landing_page_react/static/media/fa-brands-400.f77bcc98bb7468c8b15a.woff2",
+    "static/media/passion.jpg": "/restaurant_landing_page_react/static/media/passion.233c41dd9d804bdaab37.jpg",
+    "static/media/fa-regular-400.ttf": "/restaurant_landing_page_react/static/media/fa-regular-400.15d98c18221c8bcb2334.ttf",
+    "static/media/fa-regular-400.woff2": "/restaurant_landing_page_react/static/media/fa-regular-400.d79c2ec96ab9ff1161a2.woff2",
+    "static/media/fa-v4compatibility.ttf": "/restaurant_landing_page_react/static/media/fa-v4compatibility.52eba2c567c521b8d58a.ttf",
+    "static/media/fa-v4compatibility.woff2": "/restaurant_landing_page_react/static/media/fa-v4compatibility.3d503f89ccaf1b224aa5.woff2",
+    "index.html": "/restaurant_landing_page_react/index.html",
+    "main.3e76e5d0.css.map": "/restaurant_landing_page_react/static/css/main.3e76e5d0.css.map",
+    "main.1971328f.js.map": "/restaurant_landing_page_react/static/js/main.1971328f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e76e5d0.css",
+    "static/js/main.1971328f.js"
+  ]
+}
