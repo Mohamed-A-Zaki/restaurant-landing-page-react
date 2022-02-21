@@ -4,7 +4,7 @@ import WOW from "wow.js";
 new WOW().init();
 $("body").niceScroll();
 
-window.onload = function ()  {
+window.onload = function () {
   // Start scroll to top
 
   let scroll_to_top = document.querySelector(".scroll-to-top");
