@@ -1,6 +1,7 @@
 import React, { createRef } from "react";
 import "./Navbar.css";
 import logo from "../../img/logo.png";
+import ScrollIndicator from "../ScrollIndicator/ScrollIndicator";
 
 const Navbar = () => {
   const links_ref = createRef();
@@ -42,6 +43,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <ScrollIndicator />
     </nav>
   );
 };

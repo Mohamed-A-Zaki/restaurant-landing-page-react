@@ -5,7 +5,8 @@
 nav {
   background-color: #fff;
   box-shadow: 2px 2px 6px 2px #eee;
-  position: relative;
+  position: fixed;
+  z-index: 50;
   width: 100%;
   .container {
     display: flex;

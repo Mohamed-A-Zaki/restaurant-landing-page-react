@@ -11,7 +11,9 @@ const Statistics = () => {
           return (
             <div className="item" key={id}>
               {/* render number */}
-              <div className="number">{number}+</div>
+              <div className="number" number={number}>
+                0
+              </div>
               {/* render text */}
               <span>{text}</span>
             </div>

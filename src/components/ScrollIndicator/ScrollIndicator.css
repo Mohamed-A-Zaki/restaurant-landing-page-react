@@ -1,0 +1,16 @@
+/* start scroll indicator */
+.progress-container {
+  position: absolute;
+  height: 7px;
+  background-color: #ddd;
+  width: 100%;
+  bottom: 0;
+  z-index: 10;
+}
+.progress-container .progress-bar {
+  width: 0;
+  height: 100%;
+  background-color: #ab344f;
+}
+
+/* end scroll indicator */
