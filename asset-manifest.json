@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/restaurant-landing-page-react/static/css/main.3d294169.css",
-    "main.js": "/restaurant-landing-page-react/static/js/main.e5239ea6.js",
+    "main.css": "/restaurant-landing-page-react/static/css/main.f36fa476.css",
+    "main.js": "/restaurant-landing-page-react/static/js/main.e7080d16.js",
     "static/media/features.png": "/restaurant-landing-page-react/static/media/features.4d72ae6577093d32b9e2.png",
     "static/media/about_us.png": "/restaurant-landing-page-react/static/media/about_us.b9c846570f6969d98104.png",
     "static/media/fa-solid-900.ttf": "/restaurant-landing-page-react/static/media/fa-solid-900.79da213423ac0def2058.ttf",
@@ -16,11 +16,11 @@
     "static/media/fa-v4compatibility.ttf": "/restaurant-landing-page-react/static/media/fa-v4compatibility.52eba2c567c521b8d58a.ttf",
     "static/media/fa-v4compatibility.woff2": "/restaurant-landing-page-react/static/media/fa-v4compatibility.3d503f89ccaf1b224aa5.woff2",
     "index.html": "/restaurant-landing-page-react/index.html",
-    "main.3d294169.css.map": "/restaurant-landing-page-react/static/css/main.3d294169.css.map",
-    "main.e5239ea6.js.map": "/restaurant-landing-page-react/static/js/main.e5239ea6.js.map"
+    "main.f36fa476.css.map": "/restaurant-landing-page-react/static/css/main.f36fa476.css.map",
+    "main.e7080d16.js.map": "/restaurant-landing-page-react/static/js/main.e7080d16.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d294169.css",
-    "static/js/main.e5239ea6.js"
+    "static/css/main.f36fa476.css",
+    "static/js/main.e7080d16.js"
   ]
 }
