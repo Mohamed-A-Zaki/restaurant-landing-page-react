@@ -8,7 +8,7 @@
   "foods": [
     {
       "id": 1,
-      "img": "img/01.jpg",
+      "img": "restaurant-landing-page-react/img/01.jpg",
       "name": "Rainbow Vegetable Sandwich",
       "overview": "Time: 15 - 20 Minutes | Serves: 1",
       "old_price": "$11.70",
@@ -16,7 +16,7 @@
     },
     {
       "id": 2,
-      "img": "img/02.jpg",
+      "img": "restaurant-landing-page-react/img/02.jpg",
       "name": "Vegetarian Burger",
       "overview": "Time: 30 - 45 Minutes | Serves: 1",
       "old_price": "$10.50",
@@ -24,7 +24,7 @@
     },
     {
       "id": 3,
-      "img": "img/03.jpg",
+      "img": "restaurant-landing-page-react/img/03.jpg",
       "name": "Raspberry Stuffed French Toast",
       "overview": "Time: 10 - 15 Minutes | Serves: 1",
       "old_price": "$13.20",
